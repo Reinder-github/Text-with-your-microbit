@@ -60,31 +60,7 @@ radio.on_received_string(on_received_string)
 def on_button_pressed_b():
     global letters, bericht
     # Maak het bericht
-    letters = ["A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K",
-        "L",
-        "M",
-        "N",
-        "O",
-        "P",
-        "Q",
-        "R",
-        "S",
-        "T",
-        "U",
-        "V",
-        "W",
-        "X",
-        "Y"]
+    letters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y"]
     bericht = "" + bericht + letters[aantal_geklikt]
 input.on_button_pressed(Button.B, on_button_pressed_b)
 
