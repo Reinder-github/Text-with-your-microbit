@@ -12,13 +12,15 @@ Press A to send your message to everyone on the same radio group.
 Press B to cancel sending your message. Your message won't be deleted.
 
 To..
+
 Delete your message > Put the face of the microbit downwards
+
 Reset the cursor > Cycle through the alplabet OR shake te microbit.
 
 If you receive a message that's longer than 30 charachters an X is displayed. 
 You can turn this off by deleting the followwing lines: 52, 54, 55, 56, 57
 
-
+I programmed this in Python, but the microbit code editor converted it in Typescript and Blocks.
 
 > Open this page at [https://reinder-github.github.io/texting/](https://reinder-github.github.io/texting/)
 
